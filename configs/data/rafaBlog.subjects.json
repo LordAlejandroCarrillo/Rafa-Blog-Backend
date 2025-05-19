@@ -1,0 +1,112 @@
+[{
+  "_id": {
+    "$oid": "681ee238dafa9180db339877"
+  },
+  "name": "Física",
+  "imageURL": "https://qluacademy.org/wp-content/uploads/2023/08/por-que-es-importante-el-estudio-de-la-fisica.webp",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-10T05:20:56.150Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-10T05:20:56.150Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681ee27adafa9180db33987a"
+  },
+  "name": "Matemática",
+  "imageURL": "https://exactas.unlpam.edu.ar/wp-content/uploads/2024/05/matematica-1024x760.webp",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-10T05:22:02.091Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-10T05:22:02.091Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681ee2dcdafa9180db33987d"
+  },
+  "name": "Sociales",
+  "imageURL": "https://virtual.cunprogreso.edu.gt/pluginfile.php/69938/course/summary/cincias%20S.jpeg",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-10T05:23:40.257Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-10T05:23:40.257Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681ee34cdafa9180db339880"
+  },
+  "name": "Informática",
+  "imageURL": "https://concepto.de/wp-content/uploads/2015/08/informatica-1-e1590711779992-800x400.jpg",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-10T05:25:32.652Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-10T05:25:32.652Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681ee444dafa9180db339883"
+  },
+  "name": "Electrónica",
+  "imageURL": "https://institutonoa.com.ar/wp-content/uploads/2021/10/tec_electronica.jpg",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-10T05:29:40.886Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-10T05:29:40.886Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681ee544dafa9180db339886"
+  },
+  "name": "Electricidad",
+  "imageURL": "https://www.stiebeleltronamericas.com/sites/default/files/electricidad-energia.jpg",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-10T05:33:56.706Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-10T05:33:56.706Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681ee585dafa9180db339889"
+  },
+  "name": "Mecánica",
+  "imageURL": "https://www.ceac.es/sites/default/files/2021-01/curso-mecanico-moto.jpg.webp",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-10T05:35:01.938Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-10T05:35:01.938Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "681ee5cbdafa9180db33988c"
+  },
+  "name": "Dibujo",
+  "imageURL": "https://liceoggv.cl/wp-content/uploads/2022/05/dibujo-tecnico-1-1000x847.jpg",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-10T05:36:11.893Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-10T05:36:11.893Z"
+  }
+}]

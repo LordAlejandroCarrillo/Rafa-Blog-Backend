@@ -1,0 +1,378 @@
+[{
+  "_id": {
+    "$oid": "68296a99c75c9d20dcd3f6db"
+  },
+  "username": "tecnodibujo",
+  "text": "Muy cierto, sin precisión el dibujo técnico pierde completamente su utilidad.",
+  "publicationRef": {
+    "$oid": "68290cb8208d0197ba79ca3d"
+  },
+  "date": "2025-05-18T05:05:29.420+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T05:05:29.429Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T05:05:29.429Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68296ab8c75c9d20dcd3f6e0"
+  },
+  "username": "arq_visual",
+  "text": "Como arquitecto, puedo confirmar que un buen plano depende de la precisión en cada línea.",
+  "publicationRef": {
+    "$oid": "68290cb8208d0197ba79ca3d"
+  },
+  "date": "2025-05-18T05:06:00.806+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T05:06:00.808Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T05:06:00.808Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68296acbc75c9d20dcd3f6e5"
+  },
+  "username": "energeek",
+  "text": "¡Exacto! La electricidad es tan vital como el agua hoy en día.",
+  "publicationRef": {
+    "$oid": "682916c7208d0197ba79ca56"
+  },
+  "date": "2025-05-18T05:06:19.869+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T05:06:19.871Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T05:06:19.871Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68296ad8c75c9d20dcd3f6ea"
+  },
+  "username": "circuitos_vivos",
+  "text": "Sin electricidad no existiría nuestra sociedad moderna como la conocemos.",
+  "publicationRef": {
+    "$oid": "682916c7208d0197ba79ca56"
+  },
+  "date": "2025-05-18T05:06:32.067+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T05:06:32.070Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T05:06:32.070Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68296ae2c75c9d20dcd3f6ef"
+  },
+  "username": "fisico24",
+  "text": "Es impresionante cómo la física explica desde lo más simple hasta lo más complejo.",
+  "publicationRef": {
+    "$oid": "68291804208d0197ba79ca7d"
+  },
+  "date": "2025-05-18T05:06:42.846+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T05:06:42.848Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T05:06:42.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68296aeac75c9d20dcd3f6f4"
+  },
+  "username": "cuanticofan",
+  "text": "Me encanta cómo la física está presente incluso cuando no la notamos.",
+  "publicationRef": {
+    "$oid": "68291804208d0197ba79ca7d"
+  },
+  "date": "2025-05-18T05:06:50.456+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T05:06:50.460Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T05:06:50.460Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68296af5c75c9d20dcd3f6f9"
+  },
+  "username": "dev_realista",
+  "text": "Totalmente de acuerdo, la informática necesita más pensamiento lógico y menos herramientas básicas.",
+  "publicationRef": {
+    "$oid": "6829364535bd05149e08783e"
+  },
+  "date": "2025-05-18T05:07:01.289+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T05:07:01.291Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T05:07:01.291Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68296afdc75c9d20dcd3f6fe"
+  },
+  "username": "bitxbyte",
+  "text": "Aprender Word no es programación. Hace falta un cambio urgente en cómo se enseña informática.",
+  "publicationRef": {
+    "$oid": "6829364535bd05149e08783e"
+  },
+  "date": "2025-05-18T05:07:09.509+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T05:07:09.512Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T05:07:09.512Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68296b0dc75c9d20dcd3f703"
+  },
+  "username": "mat_pensante",
+  "text": "Memorizar sin entender solo genera frustración en los estudiantes.",
+  "publicationRef": {
+    "$oid": "6829373535bd05149e087854"
+  },
+  "date": "2025-05-18T05:07:25.490+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T05:07:25.493Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T05:07:25.493Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68296b15c75c9d20dcd3f708"
+  },
+  "username": "logicanumerica",
+  "text": "La clave está en enseñar el porqué, no en repetir como robots.",
+  "publicationRef": {
+    "$oid": "6829373535bd05149e087854"
+  },
+  "date": "2025-05-18T05:07:33.934+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T05:07:33.938Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T05:07:33.938Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68296b23c75c9d20dcd3f70d"
+  },
+  "username": "electrolover",
+  "text": "La electrónica es una maravilla, está en todo y avanza cada día más.",
+  "publicationRef": {
+    "$oid": "6829392935bd05149e087881"
+  },
+  "date": "2025-05-18T05:07:47.837+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T05:07:47.839Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T05:07:47.839Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68296b2bc75c9d20dcd3f712"
+  },
+  "username": "microchip_22",
+  "text": "Sin electrónica no tendríamos teléfonos, consolas ni computadoras. ¡Es esencial!",
+  "publicationRef": {
+    "$oid": "6829392935bd05149e087881"
+  },
+  "date": "2025-05-18T05:07:55.638+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T05:07:55.640Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T05:07:55.640Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68296b39c75c9d20dcd3f717"
+  },
+  "username": "voz_de_pueblos",
+  "text": "Ya era hora de reconocer que la historia también pertenece a quienes la vivieron, no solo a quienes la escribieron.",
+  "publicationRef": {
+    "$oid": "68293c395d4720448a71436f"
+  },
+  "date": "2025-05-18T05:08:09.088+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T05:08:09.090Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T05:08:09.090Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68296b40c75c9d20dcd3f71c"
+  },
+  "username": "historiadorx",
+  "text": "La perspectiva del pueblo es vital para entender la historia completa.",
+  "publicationRef": {
+    "$oid": "68293c395d4720448a71436f"
+  },
+  "date": "2025-05-18T05:08:16.509+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T05:08:16.511Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T05:08:16.511Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68296b4ec75c9d20dcd3f721"
+  },
+  "username": "mecanix",
+  "text": "No valoramos lo suficiente a la mecánica y todo lo que hace por nuestra vida diaria.",
+  "publicationRef": {
+    "$oid": "68293cae5d4720448a714381"
+  },
+  "date": "2025-05-18T05:08:30.142+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T05:08:30.144Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T05:08:30.144Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68296b77c75c9d20dcd3f726"
+  },
+  "username": "torqueloco",
+  "text": "Desde una bicicleta hasta un motor, todo funciona gracias a la mecánica. Es fascinante.",
+  "publicationRef": {
+    "$oid": "68293cae5d4720448a714381"
+  },
+  "date": "2025-05-18T05:09:11.294+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T05:09:11.296Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T05:09:11.296Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68299ec4c75c9d20dcd3fb06"
+  },
+  "username": "pepitoDibujante",
+  "text": "Creo que la presición está sobrevalorada.",
+  "publicationRef": {
+    "$oid": "68290cb8208d0197ba79ca3d"
+  },
+  "date": "2025-05-18T08:48:04.657+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T08:48:04.658Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T08:48:04.658Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68299f0cc75c9d20dcd3fb1b"
+  },
+  "username": "juanDibujante",
+  "text": "Yo creería que sin regla y solo con mediciones sería mejor.",
+  "publicationRef": {
+    "$oid": "6829153c208d0197ba79ca46"
+  },
+  "date": "2025-05-18T08:49:16.267+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T08:49:16.268Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T08:49:16.268Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6829a1f1c75c9d20dcd3fb3c"
+  },
+  "username": "1231",
+  "text": "231231231231",
+  "publicationRef": {
+    "$oid": "68293cae5d4720448a714381"
+  },
+  "date": "2025-05-18T09:01:37.568+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T09:01:37.571Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T09:01:37.571Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682a4e0c7147bc74c409a381"
+  },
+  "username": "123",
+  "text": "1222222332",
+  "publicationRef": {
+    "$oid": "68290cb8208d0197ba79ca3d"
+  },
+  "date": "2025-05-18T21:15:56.102+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T21:15:56.114Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T21:15:56.114Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682a5f0d46214569069e4fe1"
+  },
+  "username": "sis",
+  "text": "jsis\n",
+  "publicationRef": {
+    "$oid": "6829153c208d0197ba79ca46"
+  },
+  "date": "2025-05-18T22:28:29.253+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T22:28:29.263Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T22:28:29.263Z"
+  }
+}]

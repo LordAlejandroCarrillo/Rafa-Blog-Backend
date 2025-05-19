@@ -47,3 +47,20 @@ export const getCategoryById = async (req, res) => {
     })
   }
 }
+
+export const getCategories = async (req, res) => {
+  try {
+    const categories = await Category.find({ state:true })
+    res.status(200).json({
+      success: true,
+      message: "Category found successfully.",
+      categories,
+    })
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Error obtaining category.",
+      error,
+    })
+  }
+}

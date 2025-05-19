@@ -13,21 +13,12 @@ export const validatePublicationFields = async (req, res) => {
 }
 
 export const validateIfSubjectExists = async (req, res) => {
-    const { subject } = req.params
-    const lowerCaseName = subject.toLowerCase()
-    const capitalizedName = lowerCaseName.charAt(0).toUpperCase() + subject.slice(1).toLowerCase()
-    const subjectRequested = await Subject.findOne({ name: capitalizedName, state:true})
-    if(!subjectRequested){
-        return res.status(400).json({
-            success: false,
-            message: "The subject doesnt exist or you misspelled it."
-        })
-    }
+    
 }
 
 export const validateIfCategoryExists = async (req, res) => {
     let { category } = req.params
-    if(category){
+    if (category != "null" && category){
         const lowerCaseName = category.toLowerCase()
         const capitalizedName = lowerCaseName.charAt(0).toUpperCase() + category.slice(1).toLowerCase()
         const categoryRequested = await Category.findOne({ name: capitalizedName, state:true})
@@ -38,6 +29,49 @@ export const validateIfCategoryExists = async (req, res) => {
             })
         }
     }
+}
+
+export const validatePublication = async (req, res) => {
+    const { subject, category, offset } = req.params
+    const lowerCaseName = subject.toLowerCase()
+    const capitalizedName = lowerCaseName.charAt(0).toUpperCase() + subject.slice(1).toLowerCase()
+    const lowerCaseCategory = category.toLowerCase()
+    const capitalizedCategory = lowerCaseCategory.charAt(0).toUpperCase() + category.slice(1).toLowerCase()
+    let categoryr
+    let publications
+    let total
+    if (category != "null" && category){
+        categoryr = await Category.findOne({name: capitalizedCategory})
+    }
+
+    if((category != "null" && category) && (subject != "null" && subject)){
+        total = await Publication.countDocuments({ state: true, categoryRef: categoryr.id, subjectName: capitalizedName })
+        publications = await Publication.find({ state: true, categoryRef: categoryr.id, subjectName: capitalizedName})
+            .skip(offset)
+            .limit(10)
+    } else if(category != "null" && category){
+        total = await Publication.countDocuments({ state: true, categoryRef: categoryr.id })
+        publications = await Publication.find({ state: true, categoryRef: categoryr.id })
+            .skip(offset)
+            .limit(10)
+    } else if(subject != "null" && subject){
+        total = await Publication.countDocuments({ state: true, subjectName: capitalizedName })
+        publications = await Publication.find({ state: true, subjectName: capitalizedName })
+            .skip(offset)
+            .limit(10)
+    } else{
+        total = await Publication.countDocuments({ state: true })
+        publications = await Publication.find({ state: true })
+            .skip(offset)
+            .limit(10)
+    }
+
+    return res.status(200).json({
+      total:total,
+      success: true,
+      message: "Publications found successfully.",
+      publications,
+    })
 }
 
 export const validateIfFalse = async (req, res) => {
