@@ -20,32 +20,4 @@ router.post(
   createComment
 )
 
-// router.get("/search/:id", check("id").custom(existsSubjectById), getSubjectById);
-
-// router.post(
-//   "/add-subject/",
-//   [
-//     validateFields
-//   ],
-//   createSubject
-// )
-
-// router.put(
-//   "/update-subject/:id",
-//   [
-//     check("id").custom(existsSubjectById),
-//     validateFields,
-//   ],
-//   updateSubject
-// )
-
-// router.delete(
-//   "/delete-subject/:id",
-//   [
-//     check("id").custom(existsSubjectById),
-//     validateFields,
-//   ],
-//   deleteSubject
-// )
-
 export default router

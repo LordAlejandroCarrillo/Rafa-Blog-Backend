@@ -26,6 +26,12 @@ const PublicationSchema = new Schema(
     subjectName: {
       type: String
     },
+    categoryName: {
+      type: String
+    },
+    categoryColor: {
+      type: String
+    },
     date: {
       type: String 
     },

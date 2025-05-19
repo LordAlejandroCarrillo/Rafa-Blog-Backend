@@ -5,6 +5,7 @@ import {
   validateIfCategoryExists,
   validateIfFalse,
   validateIfSubjectExists,
+  validatePublication,
   validatePublicationFields 
 } from "../middlewares/validate-publication.js"
 
@@ -40,7 +41,9 @@ export const createPublication = async (req, res) => {
         subjectRef: subjectRequested.id,
         subjectName: subjectRequested.name,
         date: currentDate,
-        categoryRef: categoryRequested.id
+        categoryRef: categoryRequested.id,
+        categoryName: categoryRequested.name,
+        categoryColor: categoryRequested.color
       })
     } else{
         publication = await Publication.create({
@@ -66,90 +69,18 @@ export const createPublication = async (req, res) => {
   }
 }
 
-export const getPublicationsSubject = async (req, res) => {
-  try {
-    await validateIfSubjectExists(req, res)
-        if(res.headersSent) return
-    const { subject } = req.params
-    const lowerCaseName = subject.toLowerCase()
-    const capitalizedName = lowerCaseName.charAt(0).toUpperCase() + subject.slice(1).toLowerCase()
-    const publications = await Publication.find({ state: true, subjectName: capitalizedName })
-    res.status(200).json({
-      success: true,
-      message: "Publications found successfully.",
-      publications,
-    })
-  } catch (error) {
-    res.status(500).json({
-      success: false,
-      message: "Error obtaining publications.",
-      error,
-    })
-  }
-}
-
-export const getPublicationsCategory = async (req, res) => {
-  try {
-    await validateIfCategoryExists(req, res)
-        if(res.headersSent) return
-    const { category } = req.params
-    const lowerCaseName = category.toLowerCase()
-    const capitalizedName = lowerCaseName.charAt(0).toUpperCase() + category.slice(1).toLowerCase()
-    const categoryr = await Category.findOne({name: capitalizedName})
-    const publications = await Publication.find({ state: true, categoryRef: categoryr.id })
-    res.status(200).json({
-      success: true,
-      message: "Publications found successfully.",
-      publications,
-    })
-  } catch (error) {
-    res.status(500).json({
-      success: false,
-      message: "Error obtaining publications.",
-      error,
-    })
-  }
-}
-
-export const getPublicationsCategoryAndSubject = async (req, res) => {
-  try {
-    await validateIfCategoryExists(req, res)
-      if(res.headersSent) return
-    await validateIfSubjectExists(req, res)
-      if(res.headersSent) return
-    const { subject, category } = req.params
-    const lowerCaseName = subject.toLowerCase()
-    const capitalizedName = lowerCaseName.charAt(0).toUpperCase() + subject.slice(1).toLowerCase()
-    const lowerCaseCategory = category.toLowerCase()
-    const capitalizedCategory = lowerCaseCategory.charAt(0).toUpperCase() + category.slice(1).toLowerCase()
-    const categoryr = await Category.findOne({name: capitalizedCategory})
-    const publications = await Publication.find({ state: true, categoryRef: categoryr.id, subjectName: capitalizedName})
-    res.status(200).json({
-      success: true,
-      message: "Publications found successfully.",
-      publications,
-    })
-  } catch (error) {
-    res.status(500).json({
-      success: false,
-      message: "Error obtaining publications.",
-      error,
-    })
-  }
-}
-
 export const getPublications = async (req, res) => {
   try {
-    const publications = await Publication.find({ state: true })
-    res.status(200).json({
-      success: true,
-      message: "Publications found successfully.",
-      publications,
-    })
+    await validateIfCategoryExists(req, res)
+      if(res.headersSent) return
+    await validateIfSubjectExists(req, res)
+      if(res.headersSent) return
+    await validatePublication(req, res)
+      if(res.headersSent) return
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: "Error obtaining publications.",
+      message: "Error obtaining publications.sdaf   afasdf ",
       error,
     })
   }

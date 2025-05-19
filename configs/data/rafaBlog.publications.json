@@ -1,0 +1,600 @@
+[{
+  "_id": {
+    "$oid": "68290cb8208d0197ba79ca3d"
+  },
+  "title": "La Precisión en el Dibujo Técnico",
+  "description": "El dibujo técnico es esencial para ingenieros, arquitectos y diseñadores. Permite expresar ideas complejas de forma precisa mediante normas y simbología. Aprender a dominar este tipo de dibujo no solo desarrolla habilidades gráficas, sino también pensamiento lógico y espacial. Es una herramienta indispensable en procesos de construcción y manufactura, donde un simple error puede causar fallos importantes. Su estudio en el nivel medio fomenta disciplina, atención al detalle y comunicación visual clara.",
+  "subjectRef": {
+    "$oid": "681ee5cbdafa9180db33988c"
+  },
+  "categoryRef": {
+    "$oid": "68290574d3abfe46c4196155"
+  },
+  "subjectName": "Dibujo",
+  "categoryName": "Expositivo",
+  "categoryColor": "#018710",
+  "date": "2025-05-17T22:24:56.721+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-17T22:24:56.727Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-17T22:24:56.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6829153c208d0197ba79ca46"
+  },
+  "title": "Dibujar con Reglas no Quita Creatividad",
+  "description": "Algunos creen que el dibujo técnico limita la creatividad, pero en realidad, la potencia. Dominar las normas y proporciones permite al dibujante transmitir ideas innovadoras con claridad. En campos como la arquitectura y el diseño, la creatividad se une con la precisión para dar vida a proyectos funcionales y estéticos. Enseñar dibujo técnico es abrir la puerta a que los jóvenes imaginen con estructura y orden, lo cual también es una forma de arte.",
+  "subjectRef": {
+    "$oid": "681ee5cbdafa9180db33988c"
+  },
+  "categoryRef": {
+    "$oid": "681f8570b9f7fafa040eab2f"
+  },
+  "subjectName": "Dibujo",
+  "categoryName": "Opinión",
+  "categoryColor": "#9eaa0b",
+  "date": "2025-05-17T23:01:16.010+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-17T23:01:16.012Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-17T23:01:16.012Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6829156e208d0197ba79ca4e"
+  },
+  "title": "El Dibujo Técnico Debe Enseñarse con Tecnología",
+  "description": "En plena era digital, seguir usando solo papel milimetrado y escuadras para enseñar dibujo técnico es limitar su verdadero potencial. Las herramientas digitales como AutoCAD permiten mayor precisión, velocidad y profesionalismo. La educación debe adaptarse y ofrecer a los estudiantes la oportunidad de aprender tanto de forma manual como digital. Combinar ambas metodologías les da más herramientas para destacar en un mundo donde la tecnología y el diseño van de la mano.",
+  "subjectRef": {
+    "$oid": "681ee5cbdafa9180db33988c"
+  },
+  "categoryRef": {
+    "$oid": "68290565d3abfe46c4196153"
+  },
+  "subjectName": "Dibujo",
+  "categoryName": "Crítica",
+  "categoryColor": "#0032af",
+  "date": "2025-05-17T23:02:06.787+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-17T23:02:06.789Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-17T23:02:06.789Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682916c7208d0197ba79ca56"
+  },
+  "title": "La Electricidad: Pilar de la Vida Moderna",
+  "description": "La electricidad es fundamental para casi todo lo que hacemos, desde iluminar nuestras casas hasta cargar nuestros celulares. Comprender cómo se genera, se transmite y se utiliza nos permite valorar su importancia y usarla responsablemente. En la formación técnica, aprender sobre circuitos, voltaje y resistencia no solo es útil, sino vital para prepararse ante un mundo que depende cada vez más de la energía eléctrica. Es una disciplina con amplias aplicaciones y salidas laborales.",
+  "subjectRef": {
+    "$oid": "681ee544dafa9180db339886"
+  },
+  "categoryRef": {
+    "$oid": "68290574d3abfe46c4196155"
+  },
+  "subjectName": "Electricidad",
+  "categoryName": "Expositivo",
+  "categoryColor": "#018710",
+  "date": "2025-05-17T23:07:51.133+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-17T23:07:51.134Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-17T23:07:51.134Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682916db208d0197ba79ca5c"
+  },
+  "title": "La Electricidad Debería Enseñarse Desde Primaria",
+  "description": "Esperar hasta diversificado para hablar de electricidad es un error. Los niños ya usan dispositivos que funcionan con corriente y deberían entender lo básico desde temprano. Saber cómo evitar accidentes, ahorrar energía y comprender lo que ocurre cuando se conecta un aparato no solo es útil, sino una necesidad. Incluir nociones de electricidad desde primaria fomentaría una cultura más segura, eficiente y responsable en el uso de la energía eléctrica.",
+  "subjectRef": {
+    "$oid": "681ee544dafa9180db339886"
+  },
+  "categoryRef": {
+    "$oid": "681f8570b9f7fafa040eab2f"
+  },
+  "subjectName": "Electricidad",
+  "categoryName": "Opinión",
+  "categoryColor": "#9eaa0b",
+  "date": "2025-05-17T23:08:11.139+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-17T23:08:11.140Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-17T23:08:11.140Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682916ed208d0197ba79ca62"
+  },
+  "title": "La Educación Eléctrica Está Desactualizada",
+  "description": "Muchas veces, los contenidos de electricidad en los programas escolares no reflejan la realidad actual. Se sigue enseñando con ejemplos antiguos, sin abordar temas modernos como energías renovables, instalaciones inteligentes o eficiencia energética. Es necesario actualizar los contenidos para preparar mejor a los estudiantes para los retos del presente. La electricidad moderna ya no es solo cableado y focos; también son paneles solares, sensores y automatización del hogar.",
+  "subjectRef": {
+    "$oid": "681ee544dafa9180db339886"
+  },
+  "categoryRef": {
+    "$oid": "68290565d3abfe46c4196153"
+  },
+  "subjectName": "Electricidad",
+  "categoryName": "Crítica",
+  "categoryColor": "#0032af",
+  "date": "2025-05-17T23:08:29.601+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-17T23:08:29.602Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-17T23:08:29.602Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68291804208d0197ba79ca7d"
+  },
+  "title": "Física: Ciencia que lo Explica Todo",
+  "description": "La física está en cada rincón de nuestra vida: cuando caminamos, lanzamos una pelota o usamos el celular. Entender conceptos como fuerza, energía y movimiento ayuda a comprender mejor el mundo que nos rodea. La física fomenta el pensamiento crítico, la observación y la experimentación, habilidades valiosas para cualquier campo profesional. Además, es base de muchas tecnologías actuales, desde los motores hasta los satélites.",
+  "subjectRef": {
+    "$oid": "681ee238dafa9180db339877"
+  },
+  "categoryRef": {
+    "$oid": "68290574d3abfe46c4196155"
+  },
+  "subjectName": "Física",
+  "categoryName": "Expositivo",
+  "categoryColor": "#018710",
+  "date": "2025-05-17T23:13:08.929+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-17T23:13:08.929Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-17T23:13:08.929Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6829181c208d0197ba79ca83"
+  },
+  "title": "La Física no es tan Difícil como Parece",
+  "description": "Muchos le temen a la física porque piensan que es complicada. Pero si se enseña con ejemplos prácticos, juegos y experimentos, puede ser muy entretenida. Entender por qué caen las cosas o cómo funciona un avión puede despertar la curiosidad de los estudiantes. Solo necesitamos cambiar la forma de enseñarla para que más jóvenes se enamoren de esta ciencia.",
+  "subjectRef": {
+    "$oid": "681ee238dafa9180db339877"
+  },
+  "categoryRef": {
+    "$oid": "68290574d3abfe46c4196155"
+  },
+  "subjectName": "Física",
+  "categoryName": "Expositivo",
+  "categoryColor": "#018710",
+  "date": "2025-05-17T23:13:32.406+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-17T23:13:32.406Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-17T23:13:32.406Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68291835208d0197ba79ca89"
+  },
+  "title": "La Física Necesita más Laboratorios",
+  "description": "Estudiar física solo con fórmulas en una pizarra limita la comprensión. Es urgente que las escuelas inviertan en laboratorios donde los estudiantes puedan experimentar, medir y observar fenómenos físicos. Tocar, ver y probar hace la diferencia entre memorizar y comprender. Sin práctica, la física se vuelve abstracta e inaccesible. Con ella, se vuelve una aventura fascinante.",
+  "subjectRef": {
+    "$oid": "681ee238dafa9180db339877"
+  },
+  "categoryRef": {
+    "$oid": "68290565d3abfe46c4196153"
+  },
+  "subjectName": "Física",
+  "categoryName": "Crítica",
+  "categoryColor": "#0032af",
+  "date": "2025-05-17T23:13:57.468+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-17T23:13:57.469Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-17T23:13:57.469Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6829364535bd05149e08783e"
+  },
+  "title": "Informática Mal Enseñada es Inútil",
+  "description": "No sirve de nada enseñar a usar Word o PowerPoint como si eso fuera informática. Los estudiantes deben aprender lógica, algoritmos, programación y pensamiento computacional. La informática es más que usar software: es saber cómo se crean. Enseñarla mal es desperdiciar su verdadero valor formativo y profesional. La escuela debe preparar a los jóvenes para crear tecnología, no solo consumirla.",
+  "subjectRef": {
+    "$oid": "681ee34cdafa9180db339880"
+  },
+  "categoryRef": {
+    "$oid": "68290565d3abfe46c4196153"
+  },
+  "subjectName": "Informática",
+  "categoryName": "Crítica",
+  "categoryColor": "#0032af",
+  "date": "2025-05-18T01:22:13.095+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T01:22:13.105Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T01:22:13.105Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6829368a35bd05149e087846"
+  },
+  "title": "La Programación Debería ser Como Matemáticas",
+  "description": "En un mundo digital, todos deberían aprender a programar. No todos serán ingenieros, pero entender cómo piensan las máquinas es una ventaja enorme. La programación desarrolla lógica, creatividad y resolución de problemas. Si se enseña desde pequeños, podría abrir muchas oportunidades laborales y fortalecer el pensamiento estructurado.",
+  "subjectRef": {
+    "$oid": "681ee34cdafa9180db339880"
+  },
+  "categoryRef": {
+    "$oid": "681f8570b9f7fafa040eab2f"
+  },
+  "subjectName": "Informática",
+  "categoryName": "Opinión",
+  "categoryColor": "#9eaa0b",
+  "date": "2025-05-18T01:23:22.588+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T01:23:22.590Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T01:23:22.590Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682936ad35bd05149e08784c"
+  },
+  "title": "¿Qué es la Informática y Por Qué es Importante?",
+  "description": "La informática es la ciencia que estudia el tratamiento automático de la información mediante computadoras. Incluye áreas como programación, redes, bases de datos e inteligencia artificial. Es clave en casi todas las industrias actuales, desde la medicina hasta el entretenimiento. Aprender informática permite desarrollar habilidades para resolver problemas, automatizar tareas y crear soluciones digitales que transforman el mundo.",
+  "subjectRef": {
+    "$oid": "681ee34cdafa9180db339880"
+  },
+  "categoryRef": {
+    "$oid": "68290574d3abfe46c4196155"
+  },
+  "subjectName": "Informática",
+  "categoryName": "Expositivo",
+  "categoryColor": "#018710",
+  "date": "2025-05-18T01:23:57.375+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T01:23:57.377Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T01:23:57.377Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6829373535bd05149e087854"
+  },
+  "title": "La Matemática No Debe ser Memorización",
+  "description": "Resolver cien ejercicios mecánicos sin entender el porqué es inútil. La matemática debe enseñarse con lógica, visualización y aplicaciones prácticas. Si el estudiante entiende lo que hace, recordará mejor. Si solo memoriza fórmulas, las olvidará pronto. Hay que cambiar el enfoque de enseñar a pensar, no solo a repetir pasos sin sentido.",
+  "subjectRef": {
+    "$oid": "681ee27adafa9180db33987a"
+  },
+  "categoryRef": {
+    "$oid": "68290565d3abfe46c4196153"
+  },
+  "subjectName": "Matemática",
+  "categoryName": "Crítica",
+  "categoryColor": "#0032af",
+  "date": "2025-05-18T01:26:13.928+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T01:26:13.929Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T01:26:13.929Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6829375835bd05149e08785a"
+  },
+  "title": "La Matemática es una Herramienta para la Vida",
+  "description": "Muchos dicen que las matemáticas no sirven en la vida real. Pero cada decisión de compra, cada presupuesto o cada análisis de datos requiere razonamiento numérico. La matemática nos ayuda a pensar con orden, a resolver problemas y a tomar decisiones informadas. Es más útil de lo que imaginamos.",
+  "subjectRef": {
+    "$oid": "681ee27adafa9180db33987a"
+  },
+  "categoryRef": {
+    "$oid": "681f8570b9f7fafa040eab2f"
+  },
+  "subjectName": "Matemática",
+  "categoryName": "Opinión",
+  "categoryColor": "#9eaa0b",
+  "date": "2025-05-18T01:26:48.519+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T01:26:48.521Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T01:26:48.521Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6829377435bd05149e087860"
+  },
+  "title": "¿Por qué Tememos Tanto a las Matemáticas?",
+  "description": "El miedo a las matemáticas es muy común, pero ¿de dónde viene? Tal vez de experiencias negativas, de malas enseñanzas, o del mito de que solo algunos nacen con talento. Lo cierto es que todos podemos aprender matemáticas si se nos enseñan bien. ¿Qué podemos hacer para que dejen de ser un obstáculo y se conviertan en una herramienta poderosa?",
+  "subjectRef": {
+    "$oid": "681ee27adafa9180db33987a"
+  },
+  "categoryRef": {
+    "$oid": "682905a8d3abfe46c4196157"
+  },
+  "subjectName": "Matemática",
+  "categoryName": "Interrogativo",
+  "categoryColor": "#c1501a",
+  "date": "2025-05-18T01:27:16.767+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T01:27:16.769Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T01:27:16.769Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6829392935bd05149e087881"
+  },
+  "title": "La Electrónica Está en Todo",
+  "description": "Desde el control remoto hasta los autos eléctricos, la electrónica forma parte integral de nuestra vida diaria. Entender sus fundamentos permite no solo reparar dispositivos, sino también diseñar soluciones tecnológicas. Aprender sobre resistencias, microcontroladores y circuitos impresos abre la puerta a múltiples oportunidades. La electrónica combina lógica, física y creatividad, y se ha vuelto una habilidad indispensable en el mundo actual, especialmente en carreras técnicas y de innovación.",
+  "subjectRef": {
+    "$oid": "681ee444dafa9180db339883"
+  },
+  "categoryRef": {
+    "$oid": "68290574d3abfe46c4196155"
+  },
+  "subjectName": "Electrónica",
+  "categoryName": "Expositivo",
+  "categoryColor": "#018710",
+  "date": "2025-05-18T01:34:33.977+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T01:34:33.979Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T01:34:33.979Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6829395135bd05149e087887"
+  },
+  "title": "Falta Práctica Real en Clases de Electrónica",
+  "description": "Muchos cursos de electrónica siguen siendo demasiado teóricos. Es importante que los estudiantes practiquen con placas, sensores, soldadura y programación. Solo así entenderán cómo funciona un circuito realmente. Tener conocimientos sin experiencia práctica es como aprender a nadar leyendo un libro: no basta. Las escuelas técnicas deben invertir en laboratorios y proyectos reales para que los jóvenes desarrollen competencias útiles para el mundo laboral.",
+  "subjectRef": {
+    "$oid": "681ee444dafa9180db339883"
+  },
+  "categoryRef": {
+    "$oid": "68290565d3abfe46c4196153"
+  },
+  "subjectName": "Electrónica",
+  "categoryName": "Crítica",
+  "categoryColor": "#0032af",
+  "date": "2025-05-18T01:35:13.160+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T01:35:13.161Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T01:35:13.161Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6829396735bd05149e08788d"
+  },
+  "title": "La Electrónica Debería ser Obligatoria",
+  "description": "Vivimos en una era donde todo tiene chips y sensores, pero la mayoría no sabe cómo funcionan. Incluir electrónica como materia obligatoria, incluso en carreras no técnicas, podría generar una sociedad más informada, innovadora y con capacidad para resolver problemas. Entender los principios básicos de un circuito puede despertar vocaciones, prevenir accidentes y mejorar la relación que tenemos con la tecnología.",
+  "subjectRef": {
+    "$oid": "681ee444dafa9180db339883"
+  },
+  "categoryRef": {
+    "$oid": "681f8570b9f7fafa040eab2f"
+  },
+  "subjectName": "Electrónica",
+  "categoryName": "Opinión",
+  "categoryColor": "#9eaa0b",
+  "date": "2025-05-18T01:35:35.092+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T01:35:35.093Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T01:35:35.093Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68293c395d4720448a71436f"
+  },
+  "title": "La Historia También la Escriben los Pueblos",
+  "description": "Durante siglos, la historia ha sido contada desde la perspectiva de los vencedores o las élites. Sin embargo, los pueblos también son protagonistas. Sus luchas, culturas y resistencias merecen ser reconocidas. ¿Por qué seguimos dejando fuera tantas voces del relato histórico oficial?",
+  "subjectRef": {
+    "$oid": "681ee2dcdafa9180db33987d"
+  },
+  "categoryRef": {
+    "$oid": "681f8570b9f7fafa040eab2f"
+  },
+  "subjectName": "Sociales",
+  "categoryName": "Opinión",
+  "categoryColor": "#9eaa0b",
+  "date": "2025-05-18T01:47:37.507+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T01:47:37.517Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T01:47:37.517Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68293c765d4720448a714375"
+  },
+  "title": "La Desigualdad Social no es Casual",
+  "description": "Las diferencias económicas y de oportunidades no son simplemente una cuestión de esfuerzo personal. Hay sistemas que perpetúan privilegios para unos y obstáculos para otros. ¿Hasta qué punto el modelo actual favorece la injusticia y limita el progreso colectivo?",
+  "subjectRef": {
+    "$oid": "681ee2dcdafa9180db33987d"
+  },
+  "categoryRef": {
+    "$oid": "68290565d3abfe46c4196153"
+  },
+  "subjectName": "Sociales",
+  "categoryName": "Crítica",
+  "categoryColor": "#0032af",
+  "date": "2025-05-18T01:48:38.042+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T01:48:38.043Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T01:48:38.043Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68293c8b5d4720448a71437b"
+  },
+  "title": "¿Qué Significa Realmente ser Ciudadano?",
+  "description": "Más allá de votar o portar un documento, la ciudadanía implica derechos, deberes y participación activa. Pero ¿qué tanto se nos educa para ejercerla? ¿Estamos cumpliendo nuestro rol como ciudadanos o simplemente dejamos que otros decidan por nosotros?",
+  "subjectRef": {
+    "$oid": "681ee2dcdafa9180db33987d"
+  },
+  "categoryRef": {
+    "$oid": "682905a8d3abfe46c4196157"
+  },
+  "subjectName": "Sociales",
+  "categoryName": "Interrogativo",
+  "categoryColor": "#c1501a",
+  "date": "2025-05-18T01:48:59.997+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T01:48:59.998Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T01:48:59.998Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68293cae5d4720448a714381"
+  },
+  "title": "El papel de la Mecánica en la Vida Cotidiana",
+  "description": "Desde abrir una puerta hasta el funcionamiento de un automóvil, la mecánica está presente en cada aspecto de nuestras vidas. Comprender sus principios no solo permite innovar, también ayuda a valorar el funcionamiento del mundo que nos rodea.",
+  "subjectRef": {
+    "$oid": "681ee585dafa9180db339889"
+  },
+  "categoryRef": {
+    "$oid": "68290574d3abfe46c4196155"
+  },
+  "subjectName": "Mecánica",
+  "categoryName": "Expositivo",
+  "categoryColor": "#018710",
+  "date": "2025-05-18T01:49:34.748+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T01:49:34.749Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T01:49:34.749Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68293cc55d4720448a714387"
+  },
+  "title": "Aprender Mecánica es Aprender a Pensar",
+  "description": "Estudiar mecánica no es solo memorizar fórmulas o desarmar motores; es comprender causas, analizar sistemas y buscar soluciones. En un mundo que necesita más pensamiento crítico, ¿por qué no valorar más esta disciplina?",
+  "subjectRef": {
+    "$oid": "681ee585dafa9180db339889"
+  },
+  "categoryRef": {
+    "$oid": "681f8570b9f7fafa040eab2f"
+  },
+  "subjectName": "Mecánica",
+  "categoryName": "Opinión",
+  "categoryColor": "#9eaa0b",
+  "date": "2025-05-18T01:49:57.871+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T01:49:57.872Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T01:49:57.872Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68293cfa5d4720448a71438d"
+  },
+  "title": "¿Por Qué no Enseñamos Mecánica Desde Temprano?",
+  "description": "Muchos estudiantes no descubren su interés por la mecánica hasta etapas avanzadas. Si es tan útil y formativa, ¿por qué no la integramos desde niveles básicos? ¿Qué estamos perdiendo al relegarla a un segundo plano?",
+  "subjectRef": {
+    "$oid": "681ee585dafa9180db339889"
+  },
+  "categoryRef": {
+    "$oid": "682905a8d3abfe46c4196157"
+  },
+  "subjectName": "Mecánica",
+  "categoryName": "Interrogativo",
+  "categoryColor": "#c1501a",
+  "date": "2025-05-18T01:50:50.752+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T01:50:50.754Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T01:50:50.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682a5e368b5d7031a5567323"
+  },
+  "title": "¿Por Qué no Enseñamos Mecánica Desde Temprano?",
+  "description": "Muchos estudiantes no descubren su interés por la mecánica hasta etapas avanzadas. Si es tan útil y formativa, ¿por qué no la integramos desde niveles básicos? ¿Qué estamos perdiendo al relegarla a un segundo plano?",
+  "subjectRef": {
+    "$oid": "681ee585dafa9180db339889"
+  },
+  "categoryRef": {
+    "$oid": "682905a8d3abfe46c4196157"
+  },
+  "subjectName": "Mecánica",
+  "categoryName": "Interrogativo",
+  "categoryColor": "#c1501a",
+  "date": "2025-05-18T22:24:54.907+00:00",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-18T22:24:54.918Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T22:24:54.918Z"
+  }
+}]

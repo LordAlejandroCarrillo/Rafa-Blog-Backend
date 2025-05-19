@@ -1,0 +1,84 @@
+[{
+  "_id": {
+    "$oid": "681f8570b9f7fafa040eab2f"
+  },
+  "name": "Opinión",
+  "color": "#9eaa0b",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-10T16:57:20.049Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-10T16:57:20.049Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68290565d3abfe46c4196153"
+  },
+  "name": "Crítica",
+  "color": "#0032af",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-17T21:53:41.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-17T21:53:41.770Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68290574d3abfe46c4196155"
+  },
+  "name": "Expositivo",
+  "color": "#018710",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-17T21:53:56.834Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-17T21:53:56.834Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682905a8d3abfe46c4196157"
+  },
+  "name": "Interrogativo",
+  "color": "#c1501a",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-17T21:54:48.034Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-17T21:54:48.034Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682905ddd3abfe46c4196159"
+  },
+  "name": "Inductivo",
+  "color": "#03b15e",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-17T21:55:41.315Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-17T21:55:41.315Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682a83b4e4738367dc9784fa"
+  },
+  "name": "Poético",
+  "color": "#03b15e",
+  "state": true,
+  "createdAt": {
+    "$date": "2025-05-19T01:04:52.333Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T01:04:52.333Z"
+  }
+}]
