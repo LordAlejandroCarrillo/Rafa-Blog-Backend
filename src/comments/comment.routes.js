@@ -1,10 +1,12 @@
 import { Router } from "express"
 import { validateFields } from "../middlewares/validate-fields.js";
-import { existsPublicationById} from "../helpers/db-validator.js";
+import { existsCommentById, existsPublicationById} from "../helpers/db-validator.js";
 import { check } from "express-validator";
 import { 
     createComment,
-    getComments
+    deleteComment,
+    getComments,
+    updateComment
 } from "./comment.controller.js";
 
 const router = Router()
@@ -18,6 +20,23 @@ router.post(
     validateFields,
   ],
   createComment
+)
+
+router.put(
+  "/update-comment/:id",
+  [
+    check("id").custom(existsCommentById),
+    validateFields,
+  ],
+  updateComment
+)
+
+router.delete(
+  "/delete-comment/:id",
+  [
+    check("id").custom(existsCommentById),
+  ],
+  deleteComment
 )
 
 export default router

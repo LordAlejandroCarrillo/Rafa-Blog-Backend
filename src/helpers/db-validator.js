@@ -1,4 +1,5 @@
 import Category from "../categories/category.model.js";
+import Comment from "../comments/comment.model.js";
 import Publication from "../publications/publication.model.js";
 import Subject from "../subjects/subject.model.js";
 
@@ -48,6 +49,14 @@ export const existsCategoryById = async (id = '') => {
     const existsCategory = await Category.findById(id);
 
     if(!existsCategory){
+        throw new Error(`El ID ${id} no existe`);
+    }
+}
+
+export const existsCommentById = async (id = '') => {
+    const existsComment = await Comment.findById(id);
+
+    if(!existsComment){
         throw new Error(`El ID ${id} no existe`);
     }
 }

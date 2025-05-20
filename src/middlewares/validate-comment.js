@@ -15,6 +15,7 @@ export const validateIfCommentFalse = async (req, res) => {
     const { id } = req.params
     const comment = await Comment.findById(id)
     if(!comment.state){
+        console.log('hola')
         return res.status(400).json({
             success: false,
             message: "Comment doesnt exist."
